@@ -1,7 +1,16 @@
+:root {
+    --background: black;
+    --foreground: white;
+    --accent-one: yellow;
+    --accent-two: red;
+}
+
 body, html {
     margin: 0;
     padding: 0;
 }
+
+/* OVERRIDES */
 
 h1 {
 
@@ -38,11 +47,14 @@ input[type=button]:active{
 /* IDs */
 
 #header {
-
+    width: 100%;
+    height: 50px;
+    background-color: var(--background);
 }
 
 #firstCard {
-
+    width: 100%;
+    background-color: var(--foreground);
 }
 
 #firstGrid {
@@ -85,3 +97,13 @@ input[type=button]:active{
 
 }
 /* CLASSES */
+
+.centerFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.captionedImage {
+
+}
