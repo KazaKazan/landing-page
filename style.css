@@ -11,6 +11,7 @@ body, html {
     margin: 0;
     padding: 0;
     user-select: none;
+    font-family: Roboto, sans-serif;
 }
 
 /* OVERRIDES */
@@ -26,7 +27,6 @@ h1 {
     font-weight: 900;
     color: var(--accent-one);
     text-shadow: 3px 3px var(--background);
-    font-family: Roboto, sans-serif;
 }
 
 h2 {
@@ -43,7 +43,6 @@ p {
     margin: 0;
     margin-bottom: 10px;
     font-size: 18px;
-    font-family: Roboto, sans-serif;
 }
 
 i {
@@ -115,14 +114,15 @@ input[type=button]:active{
     width: 100%;
     height: 500px;
     background-color: var(--foreground);
-}
-
-#secondGrid {
-
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 5%;
+    gap: 15%;
 }
 
 #secondBottom {
-
+    justify-content: space-around;
+    gap: 5%;
 }
 
 #thirdCard {
@@ -157,5 +157,12 @@ input[type=button]:active{
 }
 
 .captionedImage {
+    height: 150px;
+    border-radius: 15px;
+    border: 4px solid var(--background);
+}
 
+.captionedImageContainer {
+    width: 150px;
+    text-align: center;
 }
