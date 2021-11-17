@@ -1,1 +1,5 @@
-This is a mock-up landing page project for the the curricilum of the odin project. I wanted to keep it simple this time and unlike most of my other projects where I used javascript even when I didn't need to for the particular assignment, for this project I decided to stick to the assignment and use no javascript. Although I did stray from the assignment when it comes to the design and made a landing page for a very human friendly fast food corporation instead.
+This is a mock-up landing page project for the the curricilum of the odin project.
+
+I did stray from the assignment when it comes to the design and made a landing page for a very human friendly fast food corporation instead.
+
+All attributions can be found in ATTRIBUTIONS.md
