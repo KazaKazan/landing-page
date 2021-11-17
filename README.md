@@ -1,0 +1,1 @@
+This is a mock-up landing page project for the the curricilum of the odin project. I wanted to keep it simple this time and unlike most of my other projects where I used javascript even when I didn't need to for the particular assignment, for this project I decided to stick to the assignment and use no javascript.
