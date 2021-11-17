@@ -2,7 +2,7 @@
     --background: black;
     --foreground: white;
     --accent-one: yellow;
-    --accent-one-muted: rgb(204, 192, 24);
+    --accent-one-muted: rgb(245, 235, 104);
     --accent-two: red;
     --accent-two-muted: rgb(204, 24, 24);
 }
@@ -36,21 +36,13 @@ h2 {
 
 h3 {
     margin: 0;
-    font-size: 36px;
+    font-size: 24px;
 }
 
 p {
     margin: 0;
     margin-bottom: 10px;
     font-size: 18px;
-}
-
-i {
-
-}
-
-b {
-
 }
 
 input[type=button]{
@@ -69,8 +61,8 @@ input[type=button]:hover{
 }
 
 input[type=button]:active{
-    background-color: var(--accent-one-muted);
-    box-shadow: 5px 5px 0 0 var(--background);
+    translate: 3px 3px;
+    box-shadow: 1px 1px 0 0 var(--background);
 }
 
 /* IDs */
@@ -84,7 +76,7 @@ input[type=button]:active{
 #firstCard {
     width: 100%;
     height: 500px;
-    background-color: var(--accent-two);
+    background-color: var(--accent-two-muted);
 }
 
 #firstGrid {
@@ -107,7 +99,6 @@ input[type=button]:active{
     width: 400px;
     object-fit: cover;
     object-position: center;
-
 }
 
 #secondCard {
@@ -127,27 +118,56 @@ input[type=button]:active{
 
 #thirdCard {
     width: 100%;
-    height: 300px;
-    background-color: var(--foreground);
+    height: 400px;
+    background-color: var(--background);
+    color: var(--foreground);
+}
+
+#thirdContainer {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    font-size: 36px;
 }
 
 #fourthCard {
     width: 100%;
-    height: 300px;
+    height: 400px;
     background-color: var(--foreground);
 }
 
-#fourthInside {
-
+#quotedPerson {
+    margin-top: 10px;
+    font-size: 24px;
+    align-self: flex-end;
 }
 
-#fourthGrid {
+#fourthInside {
+    height: 40%;
+    width: 70%;
+    background-color: var(--accent-one-muted);
+    border-radius: 20px;
+    gap: 30%;
+}
+#fourthButton:active {
+    translate: 3px 3px;
+    box-shadow: 1px 1px 0 0 var(--background);
+}
 
+
+#fourthButton {
+    background-color: rgba(0, 0, 0, 0);  
+    border: 2px solid var(--accent-two);
+    color: var(--accent-two);
 }
 
 #footer {
-
+    width: 100%;
+    height: 150px;
+    background-color: var(--background);
+    color: var(--foreground);
 }
+
 /* CLASSES */
 
 .centerFlex {
